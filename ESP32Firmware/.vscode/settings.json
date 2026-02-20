@@ -1,0 +1,12 @@
+{
+    "idf.currentSetup": "/home/rajeev/esp/v5.4.1/esp-idf",
+    "idf.port": "/dev/ttyUSB0",
+    "idf.flashType": "UART",
+    "idf.openOcdConfigs": [
+        "interface/ftdi/esp32_devkitj_v1.cfg",
+        "target/esp32s3.cfg"
+    ],
+    "idf.customExtraVars": {
+        "IDF_TARGET": "esp32s3"
+    }
+}
